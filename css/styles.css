@@ -1,0 +1,35 @@
+.navbar-static-top {
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+	background: url(../assets/jumbotron.jpg) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 200px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.thumbnail-pic {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+#projects, #social {
+	text-align: center;
+}
+
+.highlight-section {
+	margin-bottom: 100px;
+}
+
+#contact, #footer  {
+	margin-bottom: 0px;
+}
